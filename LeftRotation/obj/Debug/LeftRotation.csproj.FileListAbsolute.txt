@@ -1,0 +1,7 @@
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\LeftRotation\bin\Debug\LeftRotation.exe.config
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\LeftRotation\bin\Debug\LeftRotation.exe
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\LeftRotation\bin\Debug\LeftRotation.pdb
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\LeftRotation\obj\Debug\LeftRotation.csprojAssemblyReference.cache
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\LeftRotation\obj\Debug\LeftRotation.csproj.CoreCompileInputs.cache
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\LeftRotation\obj\Debug\LeftRotation.exe
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\LeftRotation\obj\Debug\LeftRotation.pdb

@@ -1,0 +1,10 @@
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\TreePreorderTransversal\bin\Debug\TreePreorderTransversal.exe.config
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\TreePreorderTransversal\bin\Debug\TreePreorderTransversal.exe
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\TreePreorderTransversal\bin\Debug\TreePreorderTransversal.pdb
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\TreePreorderTransversal\bin\Debug\Global.dll
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\TreePreorderTransversal\bin\Debug\Global.pdb
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\TreePreorderTransversal\obj\Debug\TreePreorderTransversal.csprojAssemblyReference.cache
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\TreePreorderTransversal\obj\Debug\TreePreorderTransversal.csproj.CoreCompileInputs.cache
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\TreePreorderTransversal\obj\Debug\TreePreorderTransversal.csproj.CopyComplete
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\TreePreorderTransversal\obj\Debug\TreePreorderTransversal.exe
+C:\Users\kling.DESKTOP-1UF75CH\source\repos\HackeRank\TreePreorderTransversal\obj\Debug\TreePreorderTransversal.pdb

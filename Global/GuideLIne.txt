@@ -1,0 +1,1 @@
+﻿Arquivo global contem funcoes e procedimentos para a migracao do C para o c#
