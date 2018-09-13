@@ -18,4 +18,20 @@ namespace TreePreorderTransversal
             right = null;
         }
     }
+    class BinaryTree{
+        class Node{
+            public int data;
+            public Node left, right;
+            Public Node(int item){
+                data = item;
+                left = null;
+                right = null;
+            }
+        }
+        Node Root;
+        BinaryTree(){
+            Root = null;
+        }
+        void insert(int data);
+    }
 }
