@@ -36,13 +36,13 @@ namespace Matrix
 
         public int[,] transpose(int[,] a)
         {
-            int[,] res = new int[a.GetLength(0), a.GetLength(1)];
+            int[,] res = new int[a.GetLength(1), a.GetLength(0)];
 
             for (int a_row = 0; a_row < a.GetLength(0); a_row++)
             {
                 for (int a_col = 0; a_col < a.GetLength(1); a_col++)
                 {
-                    res[a_col, a_row] = a[a_row, a_col]; 
+                    res[a_col, a_row] = a[a_row, a_col];
                 }
             }
             return res;
@@ -60,6 +60,38 @@ namespace Matrix
                 }
             }
             return res;
+        }
+
+        public int determinant(int[,] a)
+        {
+            int result = 0;
+
+            if (a.GetLength(0) == a.GetLength(1))
+            {
+
+                int[,] auxMatrix = new int[a.GetLength(0), a.GetLength(1) + 2];
+                Array.Copy(a, auxMatrix,a.Length);
+                //navigate each row
+                for (int a_row = 0; a_row < a.GetLength(0); a_row++)
+                {
+                    auxMatrix[a_row, a.GetLength(1) + 1] = a[a_row, 1];
+                    auxMatrix[a_row, a.GetLength(1) + 2] = a[a_row, 2];
+                }
+
+                for (int aux_row = 0; aux_row < auxMatrix.GetLength(0); aux_row++)
+                {
+                    for (int aux_col = 0; aux_col < auxMatrix.GetLength(1); aux_col++)
+                    {
+
+                    }
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("Nao é quadratica");
+            }
+            return result;
         }
     }
 }

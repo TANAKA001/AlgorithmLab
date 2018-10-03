@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort", "Sort\Sort.csproj", "{3595C3D5-DE15-4F53-908F-CB822BF2F7C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList]\LinkedList.csproj", "{F25293C4-E1F7-4CDB-857E-2B13C09344D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{3595C3D5-DE15-4F53-908F-CB822BF2F7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3595C3D5-DE15-4F53-908F-CB822BF2F7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3595C3D5-DE15-4F53-908F-CB822BF2F7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25293C4-E1F7-4CDB-857E-2B13C09344D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25293C4-E1F7-4CDB-857E-2B13C09344D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25293C4-E1F7-4CDB-857E-2B13C09344D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25293C4-E1F7-4CDB-857E-2B13C09344D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

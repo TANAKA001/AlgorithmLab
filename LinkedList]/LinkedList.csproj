@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{723DFBDA-28E9-4C14-9C7D-AEC88900011E}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Global</RootNamespace>
-    <AssemblyName>Global</AssemblyName>
+    <ProjectGuid>{F25293C4-E1F7-4CDB-857E-2B13C09344D5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LinkedList_</RootNamespace>
+    <AssemblyName>LinkedList]</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,14 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Generator\ArrayGenerator.cs" />
-    <Compile Include="ConsoleInput.cs" />
-    <Compile Include="Elements\BinaryTree.cs" />
-    <Compile Include="Elements\LinkedNode.cs" />
-    <Compile Include="Elements\Node.cs" />
-    <Compile Include="Generator\LinkedListGenerator.cs" />
-    <Compile Include="PrintArray.cs" />
+    <Compile Include="Metods.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Global\Global.csproj">
+      <Project>{723dfbda-28e9-4c14-9c7d-aec88900011e}</Project>
+      <Name>Global</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,12 +8,35 @@ namespace Global
 {
     public class PrintArray
     {
-       public static void printArray(int[] arr)
+        public static void printArray(int[] arr)
         {
-            int n = arr.Length;
-            for (int i = 0; i < n; ++i)
-                Console.Write(arr[i] + " ");
-            Console.WriteLine();
+            Console.WriteLine(@"{");
+            for (int i = 0; i < arr.Length; ++i)
+                Console.Write(arr[i] + ",");
+            Console.WriteLine(@"}");
+        }
+
+        public static void printMatrix(int[,] arr)
+        {
+            Console.WriteLine(@"{");
+            for (int i = 0; i < arr.GetLength(0); ++i)
+            {
+                Console.Write(@"{");
+                for (int j = 0; j < arr.GetLength(1); j++)
+                {
+                    Console.Write(arr[i, j]);
+                    if (j != arr.GetLength(1)-1)
+                    {
+                        Console.Write(@",");
+                    }
+                    else
+                    {
+                        Console.WriteLine(@"},");
+                    }
+                }
+            }
+            Console.WriteLine(@"};");
+
         }
     }
 }

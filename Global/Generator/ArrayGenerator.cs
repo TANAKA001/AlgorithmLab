@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Global
+namespace Global.Generator
 {
     public class ArrayGenerator
     {

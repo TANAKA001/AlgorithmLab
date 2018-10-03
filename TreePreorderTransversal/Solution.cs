@@ -1,8 +1,6 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Global.Elements;
 
 namespace TreePreorderTransversal
 {
@@ -12,6 +10,7 @@ namespace TreePreorderTransversal
         List<int> preOrderResult = new List<int>();
         List<int> inOrderResult = new List<int>();
         List<int> postOrderResult = new List<int>();
+        Dictionary<int, int[]> valNiveis = new Dictionary<int, int[]>();
 
         public Node insert(Node root, int data)
         {
@@ -36,13 +35,61 @@ namespace TreePreorderTransversal
                 return root;
             }
         }
+
         public int count(Node h)
         {
 
             if (h == null) return 0;
+            
             return count(h.left) + count(h.right) + 1;
         }
+        public int height(Node h)
+        {
+            if (h == null) return 0;
 
+            int l = height(h.left) + 1;
+            int r = height(h.right) + 1;
+            
+            return (l > r? l: r);
+        }
+        public int width(Node h)
+        {
+            
+            return 0;
+        }
+        public int sumVerticalLvl(Node h)
+        {
+            int sumOdd = sumVerticalLvl(h.left);
+            sumOdd += h.left.data;
+
+            int sumEven = sumVerticalLvl(h.right);
+            sumOdd += h.left.data;
+
+
+            return 0;
+        }
+        public IList<IList<int>> LevelOrder(Node root)
+        {
+
+            IList<IList<int>> result = new List<IList<int>>();
+            int level = 0;
+            _LevelOrder(root, ref result, level);
+
+            return result;
+        }
+
+        public void _LevelOrder(Node root, ref IList<IList<int>> result, int level)
+        {
+            if (root == null) return;
+            if (result.Count - 1 < level)
+                result.Add(new List<int>());
+
+            result[level].Add(root.data);
+
+            _LevelOrder(root, ref result, level + 1);
+            _LevelOrder(root.left, ref result, level + 1);
+            _LevelOrder(root.right, ref result, level + 1);
+        }
         public List<int> preOrder(Node root)
         {
             /*
